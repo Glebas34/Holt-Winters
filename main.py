@@ -61,7 +61,7 @@ if __name__ == "__main__":
     )
 
     # Вывод результатов
-    print("Уровни (Levels):", ', '.join([str(float(x)) for x in levels]))
-    print("Тренды (Trends):", ', '.join([str(float(x)) for x in trends]))
-    print("Сезонности (Seasonalities):", ', '.join([str(float(x)) for x in seasonalities]))
-    print("Прогнозы (Forecasts):", ', '.join([str(float(x)) for x in forecasts]))
+    print("Уровни (Levels):", ', '.join([str(np.round(x, 2)) for x in levels]))
+    print("Тренды (Trends):", ', '.join([str(np.round(x, 2)) for x in trends]))
+    print("Сезонности (Seasonalities):", ', '.join([str(np.round(x, 2)) for x in seasonalities]))
+    print("Прогнозы (Forecasts):", ', '.join([str(np.round(x, 2)) for x in forecasts]))
