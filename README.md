@@ -48,7 +48,7 @@ F<sub>t+k</sub> = (L<sub>t</sub> + k * T<sub>t</sub>) * S<sub>t-m+k</sub>
 ### Исходные данные
 ![image](https://github.com/user-attachments/assets/43669361-8b78-43b5-9dc9-0776bcea8a25)
 
-### Вызодные данные
+### Выходные данные
 ![image](https://github.com/user-attachments/assets/25561560-ff99-440a-99d4-39bbb13585c5)
 
 ### Ссылка на Google Colab:
