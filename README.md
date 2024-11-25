@@ -33,7 +33,7 @@
 
 - **Сезонность (Seasonality)**:  
   S<sub>t</sub> = α<sub>3</sub> * (Y<sub>t</sub> / L<sub>t</sub>) + (1 - α<sub>3</sub>) * S<sub>t-m</sub>  
-  где L<sub>t</sub> — уровень на текущем шаге.
+  где L<sub>t</sub> — уровень на текущем шаге, Y<sub>t</sub> - продажи в момент t.
 
 ### Прогноз на k-й период
 
@@ -52,6 +52,6 @@ F<sub>t+k</sub> = (L<sub>t</sub> + k * T<sub>t</sub>) * S<sub>t-m+k</sub>
 ![image](https://github.com/user-attachments/assets/25561560-ff99-440a-99d4-39bbb13585c5)
 
 ### Ссылка на Google Colab:
-https://colab.research.google.com/drive/1TDBTUfwUAkgnjh83z58q6fTgr4VLrGJ1?authuser=0#scrollTo=UuDq8hZmjmqX
+[https://colab.research.google.com/drive/1TDBTUfwUAkgnjh83z58q6fTgr4VLrGJ1?authuser=0#scrollTo=UuDq8hZmjmqX](https://colab.research.google.com/drive/1TDBTUfwUAkgnjh83z58q6fTgr4VLrGJ1?usp=sharing)
 
 
